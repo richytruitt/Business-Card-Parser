@@ -14,6 +14,10 @@ Navigate to the directory where the application resides, and run the following c
 ```
 python3 main.py <absolute or relative path to the contact text file>
 ```
+### EX:
+```
+python3 main.py contacts/card3.txt
+```
 
 ### Layout
 This diagram is not an official UML diagram, rather just an image to get a sense of how the program operates. Main.py calls businesscardparser to get a contactinfo object. The contactinfo object forwards the calls to getName, getPhone, and getEmail to their respective classes. Arrows are used to represent how methods are called.
