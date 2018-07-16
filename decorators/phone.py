@@ -25,7 +25,6 @@ class Phone():
         for i in result:
             for x in phoneIncluders:
                 if x in i[0].upper():
-                    print(i[0][len(x)+1:])
                     self.phone = i[0][len(x)+1:]
 
                 

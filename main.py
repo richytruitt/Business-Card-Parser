@@ -9,8 +9,8 @@ bcp = BusinessCardParser()
 # ci is a ContactInto object. 
 ci = bcp.getContactInfo(document)
 
-print()
+print('')
 print('Name: ' +ci.getName())
 print('Email: ' +ci.getEmail())
 print('Phone: ' +ci.getPhone())
-print()
+print('')
