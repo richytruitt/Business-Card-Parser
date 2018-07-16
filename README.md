@@ -14,7 +14,7 @@ Navigate to the directory where the application resides, and run the following c
 ```
 python3 main.py <absolute or relative path to the contact text file>
 ```
-### EX:
+EX:
 ```
 python3 main.py contacts/card3.txt
 ```
