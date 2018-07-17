@@ -15,20 +15,19 @@ class Phone():
 
         #before running it through the algorithm to test against the phone
         # inclusion list, I save the phone number to a variable 
-        # just incase it doesn't have something to differentiate phone numbers
+        # just incase it doesn't have something to test phone numbers
         self.phone = result[0][0]
         
-        # for each item in the regex result, and for each item in the includers
+        # for each item in the regex result, and for each item in the inclusion list
         # if the result index includes one of the items from the inclusion list
-        # then it will set the phone number to the index value after the length 
+        # then it will set the saved phone number to the index value after the length 
         # of the includer string +1
         for i in result:
             for x in phoneIncluders:
                 if x in i[0].upper():
                     self.phone = i[0][len(x)+1:]
 
-                
-    
+
     def getPhone(self):
         # return self.phone
         return self.phone
