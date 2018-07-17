@@ -24,3 +24,9 @@ This diagram is not an official UML diagram, rather just an image to get a sense
 
 ![Layout](images/flow.jpg)
 
+### Improvements
+There is a triple for loop in 'name.py'. Since we are only working with a limited set of data, I decided to leave it as is, but if I were to scale this application upwards, I would try to atleast break out one of the loops to increase efficiency. 
+
+
+
+
