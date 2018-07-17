@@ -5,8 +5,8 @@ class Name():
     def __init__(self, document):
 
         # this is the list of exclusions to test against when i perform the 'findall'
-        # query. TODO: break these out into a config file
-        nameExclusions = ['ENGINEER', 'STREET', 'ROAD', 'SOFTWARE', 'DEVELOPER', 'INC', 'TECHNOLOGIES', 'COMPANY', 'SENIOR', 'LTD']
+        # query.
+        nameExclusions = ['SOFTWARE', 'ENGINEER', 'STREET', 'ROAD', 'DEVELOPER', 'INC', 'TECHNOLOGIES', 'COMPANY', 'SENIOR', 'LTD']
         
         name_regex = '[A-Za-z]+\s[A-Za-z]+'
 

@@ -29,5 +29,4 @@ class Phone():
 
 
     def getPhone(self):
-        # return self.phone
         return self.phone
